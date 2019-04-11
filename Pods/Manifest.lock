@@ -1,0 +1,16 @@
+PODS:
+  - CrosswordsGenerator (0.3.5)
+
+DEPENDENCIES:
+  - CrosswordsGenerator
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CrosswordsGenerator
+
+SPEC CHECKSUMS:
+  CrosswordsGenerator: b918e07d672a3767c40ceb639fde5c9b51343b99
+
+PODFILE CHECKSUM: 698aeba58e7cadccff43ed854fb9080bd7974ff7
+
+COCOAPODS: 1.6.1
