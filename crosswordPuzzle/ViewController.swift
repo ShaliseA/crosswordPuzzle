@@ -16,6 +16,7 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        
         /*create a grid*/
         let layout = UICollectionViewFlowLayout()
         layout.minimumInteritemSpacing = 1
@@ -173,27 +174,30 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-    }
+    } //closes didReceiveMemoryWarning()
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return Int(pow(Double(gridSize), 2))
-    }
+    } //closes func
     
     func numberOfSections(in collectionView: UICollectionView) -> Int {
         return 1
-    }
+    } //closes func
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "Cell", for: indexPath)
         // Set up your cells here
         cell.backgroundColor = UIColor.white
         return cell
-    }
+    } //closes func
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         let size = view.frame.width / gridSize - 1
         return CGSize(width: size, height: size)
-    }
+    } //closes func
+    
+    
+    
     
 } //closes class
 

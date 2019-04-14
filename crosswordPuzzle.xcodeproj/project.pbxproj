@@ -16,6 +16,10 @@
 		F98CEF10225D3D4D008D609E /* CrosswordsGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98CEF0F225D3D4D008D609E /* CrosswordsGenerator.swift */; };
 		F98CEF12225D4A61008D609E /* Array2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98CEF11225D4A61008D609E /* Array2D.swift */; };
 		F98CEF14225D4A97008D609E /* ArrayShuffle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98CEF13225D4A97008D609E /* ArrayShuffle.swift */; };
+		F98CEF3A2262B302008D609E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F98CEF392262B302008D609E /* GoogleService-Info.plist */; };
+		F98CEF3C2262BE02008D609E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98CEF3B2262BE02008D609E /* User.swift */; };
+		F98CEF3E2262BF23008D609E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98CEF3D2262BF23008D609E /* LoginViewController.swift */; };
+		F98CEF412263E546008D609E /* OnlineUserTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98CEF402263E546008D609E /* OnlineUserTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +36,11 @@
 		F98CEF0F225D3D4D008D609E /* CrosswordsGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrosswordsGenerator.swift; sourceTree = "<group>"; };
 		F98CEF11225D4A61008D609E /* Array2D.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array2D.swift; sourceTree = "<group>"; };
 		F98CEF13225D4A97008D609E /* ArrayShuffle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayShuffle.swift; sourceTree = "<group>"; };
+		F98CEF392262B302008D609E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F98CEF3B2262BE02008D609E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		F98CEF3D2262BF23008D609E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F98CEF3F2263D817008D609E /* crosswordPuzzle.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = crosswordPuzzle.entitlements; sourceTree = "<group>"; };
+		F98CEF402263E546008D609E /* OnlineUserTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlineUserTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +75,9 @@
 		F98CEEF1225D3B07008D609E = {
 			isa = PBXGroup;
 			children = (
+				F98CEF402263E546008D609E /* OnlineUserTableViewController.swift */,
+				F98CEF3D2262BF23008D609E /* LoginViewController.swift */,
+				F98CEF3B2262BE02008D609E /* User.swift */,
 				F98CEF13225D4A97008D609E /* ArrayShuffle.swift */,
 				F98CEEFC225D3B07008D609E /* crosswordPuzzle */,
 				F98CEEFB225D3B07008D609E /* Products */,
@@ -85,6 +97,7 @@
 		F98CEEFC225D3B07008D609E /* crosswordPuzzle */ = {
 			isa = PBXGroup;
 			children = (
+				F98CEF3F2263D817008D609E /* crosswordPuzzle.entitlements */,
 				F98CEEFD225D3B07008D609E /* AppDelegate.swift */,
 				F98CEEFF225D3B07008D609E /* ViewController.swift */,
 				F98CEF0F225D3D4D008D609E /* CrosswordsGenerator.swift */,
@@ -93,6 +106,7 @@
 				F98CEF04225D3B0B008D609E /* Assets.xcassets */,
 				F98CEF06225D3B0B008D609E /* LaunchScreen.storyboard */,
 				F98CEF09225D3B0B008D609E /* Info.plist */,
+				F98CEF392262B302008D609E /* GoogleService-Info.plist */,
 			);
 			path = crosswordPuzzle;
 			sourceTree = "<group>";
@@ -131,6 +145,11 @@
 				TargetAttributes = {
 					F98CEEF9225D3B07008D609E = {
 						CreatedOnToolsVersion = 10.2;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -158,6 +177,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F98CEF08225D3B0B008D609E /* LaunchScreen.storyboard in Resources */,
+				F98CEF3A2262B302008D609E /* GoogleService-Info.plist in Resources */,
 				F98CEF05225D3B0B008D609E /* Assets.xcassets in Resources */,
 				F98CEF03225D3B07008D609E /* Main.storyboard in Resources */,
 			);
@@ -198,12 +218,18 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-crosswordPuzzle/Pods-crosswordPuzzle-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/CrosswordsGenerator/CrosswordsGenerator.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CrosswordsGenerator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -217,8 +243,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F98CEF3E2262BF23008D609E /* LoginViewController.swift in Sources */,
+				F98CEF412263E546008D609E /* OnlineUserTableViewController.swift in Sources */,
 				F98CEF00225D3B07008D609E /* ViewController.swift in Sources */,
 				F98CEF14225D4A97008D609E /* ArrayShuffle.swift in Sources */,
+				F98CEF3C2262BE02008D609E /* User.swift in Sources */,
 				F98CEF12225D4A61008D609E /* Array2D.swift in Sources */,
 				F98CEF10225D3D4D008D609E /* CrosswordsGenerator.swift in Sources */,
 				F98CEEFE225D3B07008D609E /* AppDelegate.swift in Sources */,
@@ -368,6 +397,7 @@
 			baseConfigurationReference = 285E95A4AF53B5666704072D /* Pods-crosswordPuzzle.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = crosswordPuzzle/crosswordPuzzle.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YC8N8UC3ZR;
 				INFOPLIST_FILE = crosswordPuzzle/Info.plist;
@@ -387,6 +417,7 @@
 			baseConfigurationReference = 8520F490A6D6AE2E609569D9 /* Pods-crosswordPuzzle.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = crosswordPuzzle/crosswordPuzzle.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YC8N8UC3ZR;
 				INFOPLIST_FILE = crosswordPuzzle/Info.plist;

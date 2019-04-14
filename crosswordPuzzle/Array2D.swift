@@ -18,22 +18,22 @@ open class Array2D<T> {
         self.columns = columns
         self.rows = rows
         matrix = Array(repeating: defaultValue, count: columns * rows)
-    }
+    } //closes init
     
     open subscript(column: Int, row: Int) -> T {
         get {
             return matrix[columns * row + column]
-        }
+        } //closes get
         set {
             matrix[columns * row + column] = newValue
-        }
-    }
+        } //closes set
+    } //closes subscript
     
     open func columnCount() -> Int {
         return self.columns
-    }
+    } //closes func
     
     open func rowCount() -> Int {
         return self.rows
-    }
-}
+    } //closes func
+} //closes class

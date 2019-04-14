@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1077538025050-4o676an45gavnrkefe7hsk6mp56g13a2.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1077538025050-4o676an45gavnrkefe7hsk6mp56g13a2</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCSklTTB9TWgrMRCrdeJI-9xbmQYMt9Nyg</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1077538025050</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.shaliseayromloo.crosswordpuzzle</string>
+	<key>PROJECT_ID</key>
+	<string>crosswordpuzzle-7f20f</string>
+	<key>STORAGE_BUCKET</key>
+	<string>crosswordpuzzle-7f20f.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1077538025050:ios:1f4d9597cd139ad8</string>
+	<key>DATABASE_URL</key>
+	<string>https://crosswordpuzzle-7f20f.firebaseio.com</string>
+</dict>
+</plist>
