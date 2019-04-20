@@ -20,6 +20,10 @@
 		F98CEF3C2262BE02008D609E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98CEF3B2262BE02008D609E /* User.swift */; };
 		F98CEF3E2262BF23008D609E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98CEF3D2262BF23008D609E /* LoginViewController.swift */; };
 		F98CEF412263E546008D609E /* OnlineUserTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98CEF402263E546008D609E /* OnlineUserTableViewController.swift */; };
+		F98CEF432263F82F008D609E /* Onboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F98CEF422263F82F008D609E /* Onboarding.storyboard */; };
+		F98CEF472263FD80008D609E /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98CEF462263FD80008D609E /* NotificationViewController.swift */; };
+		F98CEF492263FDAC008D609E /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98CEF482263FDAC008D609E /* LocationViewController.swift */; };
+		F98CEF4B2263FDDA008D609E /* ReadyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98CEF4A2263FDDA008D609E /* ReadyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +45,10 @@
 		F98CEF3D2262BF23008D609E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		F98CEF3F2263D817008D609E /* crosswordPuzzle.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = crosswordPuzzle.entitlements; sourceTree = "<group>"; };
 		F98CEF402263E546008D609E /* OnlineUserTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlineUserTableViewController.swift; sourceTree = "<group>"; };
+		F98CEF422263F82F008D609E /* Onboarding.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Onboarding.storyboard; sourceTree = "<group>"; };
+		F98CEF462263FD80008D609E /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		F98CEF482263FDAC008D609E /* LocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
+		F98CEF4A2263FDDA008D609E /* ReadyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +83,10 @@
 		F98CEEF1225D3B07008D609E = {
 			isa = PBXGroup;
 			children = (
+				F98CEF4A2263FDDA008D609E /* ReadyViewController.swift */,
+				F98CEF482263FDAC008D609E /* LocationViewController.swift */,
+				F98CEF462263FD80008D609E /* NotificationViewController.swift */,
+				F98CEF422263F82F008D609E /* Onboarding.storyboard */,
 				F98CEF402263E546008D609E /* OnlineUserTableViewController.swift */,
 				F98CEF3D2262BF23008D609E /* LoginViewController.swift */,
 				F98CEF3B2262BE02008D609E /* User.swift */,
@@ -177,6 +189,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F98CEF08225D3B0B008D609E /* LaunchScreen.storyboard in Resources */,
+				F98CEF432263F82F008D609E /* Onboarding.storyboard in Resources */,
 				F98CEF3A2262B302008D609E /* GoogleService-Info.plist in Resources */,
 				F98CEF05225D3B0B008D609E /* Assets.xcassets in Resources */,
 				F98CEF03225D3B07008D609E /* Main.storyboard in Resources */,
@@ -246,8 +259,11 @@
 				F98CEF3E2262BF23008D609E /* LoginViewController.swift in Sources */,
 				F98CEF412263E546008D609E /* OnlineUserTableViewController.swift in Sources */,
 				F98CEF00225D3B07008D609E /* ViewController.swift in Sources */,
+				F98CEF4B2263FDDA008D609E /* ReadyViewController.swift in Sources */,
 				F98CEF14225D4A97008D609E /* ArrayShuffle.swift in Sources */,
 				F98CEF3C2262BE02008D609E /* User.swift in Sources */,
+				F98CEF492263FDAC008D609E /* LocationViewController.swift in Sources */,
+				F98CEF472263FD80008D609E /* NotificationViewController.swift in Sources */,
 				F98CEF12225D4A61008D609E /* Array2D.swift in Sources */,
 				F98CEF10225D3D4D008D609E /* CrosswordsGenerator.swift in Sources */,
 				F98CEEFE225D3B07008D609E /* AppDelegate.swift in Sources */,
