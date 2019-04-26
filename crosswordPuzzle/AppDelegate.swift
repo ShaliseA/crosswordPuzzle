@@ -18,9 +18,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
         FirebaseApp.configure()
-        Database.database().isPersistenceEnabled = true //so the app works offline
+        //Database.database().isPersistenceEnabled = true //so the app works offline
         
-        
+        //MARK: This is for going from onboarding to main storyboard
         let launchedBefore = UserDefaults.standard.bool(forKey: "hasLaunched")
         self.window = UIWindow(frame: UIScreen.main.bounds)
         let launchStoryboard = UIStoryboard(name: "Onboarding", bundle: nil)
@@ -29,12 +29,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         var vc: UIViewController
         
         if launchedBefore {
-            
+            //if we have launched before, then we start from the main storyboard
             vc = mainStoryboard.instantiateInitialViewController()!
             
-        } else {
+        } else { //if we haven't launched before, then our initial view controller will be 
             
-            vc = launchStoryboard.instantiateViewController(withIdentifier: "notificationStoryboard")
+            vc = launchStoryboard.instantiateViewController(withIdentifier: "freeTrialStoryboard")
             
         } //closes if-else
         

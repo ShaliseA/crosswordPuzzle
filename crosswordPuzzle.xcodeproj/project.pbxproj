@@ -10,7 +10,7 @@
 		4439A190B7CA01004B02AEB7 /* Pods_crosswordPuzzle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E9741B73CD53F82DD672A00 /* Pods_crosswordPuzzle.framework */; };
 		840CA841219B5A63CDF3F447 /* Pods_crosswordPuzzleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76483CE480AE7C879C1F7B92 /* Pods_crosswordPuzzleTests.framework */; };
 		F98CEEFE225D3B07008D609E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98CEEFD225D3B07008D609E /* AppDelegate.swift */; };
-		F98CEF00225D3B07008D609E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98CEEFF225D3B07008D609E /* ViewController.swift */; };
+		F98CEF00225D3B07008D609E /* GridCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98CEEFF225D3B07008D609E /* GridCollectionViewController.swift */; };
 		F98CEF03225D3B07008D609E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F98CEF01225D3B07008D609E /* Main.storyboard */; };
 		F98CEF05225D3B0B008D609E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F98CEF04225D3B0B008D609E /* Assets.xcassets */; };
 		F98CEF08225D3B0B008D609E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F98CEF06225D3B0B008D609E /* LaunchScreen.storyboard */; };
@@ -32,6 +32,7 @@
 		F9DCC07122724BA700468906 /* PositiveEnforcementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DCC07022724BA700468906 /* PositiveEnforcementViewController.swift */; };
 		F9DCC07322724BE600468906 /* CompletePuzzleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DCC07222724BE600468906 /* CompletePuzzleViewController.swift */; };
 		F9DCC0D72272917B00468906 /* crosswordPuzzleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DCC0D62272917B00468906 /* crosswordPuzzleTests.swift */; };
+		F9DCC0E02272C35F00468906 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DCC0DF2272C35F00468906 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,7 +54,7 @@
 		E47F0DBA35F74F3889728957 /* Pods-crosswordPuzzleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-crosswordPuzzleTests.debug.xcconfig"; path = "Target Support Files/Pods-crosswordPuzzleTests/Pods-crosswordPuzzleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F98CEEFA225D3B07008D609E /* crosswordPuzzle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = crosswordPuzzle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F98CEEFD225D3B07008D609E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F98CEEFF225D3B07008D609E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F98CEEFF225D3B07008D609E /* GridCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridCollectionViewController.swift; sourceTree = "<group>"; };
 		F98CEF02225D3B07008D609E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F98CEF04225D3B0B008D609E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F98CEF07225D3B0B008D609E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -79,6 +80,7 @@
 		F9DCC0D42272917A00468906 /* crosswordPuzzleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = crosswordPuzzleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9DCC0D62272917B00468906 /* crosswordPuzzleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = crosswordPuzzleTests.swift; sourceTree = "<group>"; };
 		F9DCC0D82272917B00468906 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9DCC0DF2272C35F00468906 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,7 +162,8 @@
 			children = (
 				F98CEF3F2263D817008D609E /* crosswordPuzzle.entitlements */,
 				F98CEEFD225D3B07008D609E /* AppDelegate.swift */,
-				F98CEEFF225D3B07008D609E /* ViewController.swift */,
+				F98CEEFF225D3B07008D609E /* GridCollectionViewController.swift */,
+				F9DCC0DF2272C35F00468906 /* ViewController.swift */,
 				F98CEF0F225D3D4D008D609E /* CrosswordsGenerator.swift */,
 				F98CEF11225D4A61008D609E /* Array2D.swift */,
 				F98CEF01225D3B07008D609E /* Main.storyboard */,
@@ -212,6 +215,7 @@
 				F9DCC0D12272917A00468906 /* Frameworks */,
 				F9DCC0D22272917A00468906 /* Resources */,
 				B34FE183B90867504DDEED11 /* [CP] Embed Pods Frameworks */,
+				F9DCC0DE2272BDE900468906 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -387,6 +391,23 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-crosswordPuzzle/Pods-crosswordPuzzle-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		F9DCC0DE2272BDE900468906 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nTAGS=\"TODO:|FIXME:\"\nERRORTAG=\"ERROR:\"\nfind \"${SRCROOT}\" \\( -name \"*.h\" -or -name \"*.m\" -or -name \"*.swift\" \\) -print0 | xargs -0 egrep --with-filename --line-number --only-matching \"($TAGS).*\\$|($ERRORTAG).*\\$\" | perl -p -e \"s/($TAGS)/ warning: \\$1/\" | perl -p -e \"s/($ERRORTAG)/ error: \\$1/\"\n";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -398,12 +419,13 @@
 				F98CEF3E2262BF23008D609E /* LoginViewController.swift in Sources */,
 				F98CEF412263E546008D609E /* OnlineUserTableViewController.swift in Sources */,
 				F9DCC06B22724AA400468906 /* CruciverbalistPlusViewController.swift in Sources */,
-				F98CEF00225D3B07008D609E /* ViewController.swift in Sources */,
+				F98CEF00225D3B07008D609E /* GridCollectionViewController.swift in Sources */,
 				F9DCC06F22724B4400468906 /* SamplePuzzleViewController.swift in Sources */,
 				F98CEF4B2263FDDA008D609E /* ReadyViewController.swift in Sources */,
 				F98CEF14225D4A97008D609E /* ArrayShuffle.swift in Sources */,
 				F98CEF3C2262BE02008D609E /* User.swift in Sources */,
 				F98CEF492263FDAC008D609E /* ChoosePlanViewController.swift in Sources */,
+				F9DCC0E02272C35F00468906 /* ViewController.swift in Sources */,
 				F98CEF472263FD80008D609E /* FreeTrialViewController.swift in Sources */,
 				F9DCC07122724BA700468906 /* PositiveEnforcementViewController.swift in Sources */,
 				F98CEF12225D4A61008D609E /* Array2D.swift in Sources */,

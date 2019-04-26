@@ -13,7 +13,7 @@
         <!--FreeTrialViewController-->
         <scene sceneID="iEn-WP-M1L">
             <objects>
-                <viewController storyboardIdentifier="notificationStoryboard" id="cUP-zz-JGV" userLabel="FreeTrialViewController" customClass="FreeTrialViewController" customModule="crosswordPuzzle" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="freeTrialStoryboard" id="cUP-zz-JGV" userLabel="FreeTrialViewController" customClass="FreeTrialViewController" customModule="crosswordPuzzle" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fcg-qA-2Cd">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -348,17 +348,21 @@ $9.99/month after trial ends</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mrPencil" translatesAutoresizingMaskIntoConstraints="NO" id="ryx-iA-iJs">
-                                <rect key="frame" x="44" y="300" width="128" height="199"/>
+                                <rect key="frame" x="44" y="300" width="128" height="299"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="243" id="CU1-eJ-YpB"/>
+                                    <constraint firstAttribute="height" constant="299" id="CU1-eJ-YpB"/>
                                     <constraint firstAttribute="width" constant="128" id="GTO-Sg-EsT"/>
                                 </constraints>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="bubble" translatesAutoresizingMaskIntoConstraints="NO" id="qwJ-KM-HCq">
-                                <rect key="frame" x="160" y="158" width="234" height="248"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bubble" translatesAutoresizingMaskIntoConstraints="NO" id="qwJ-KM-HCq">
+                                <rect key="frame" x="175" y="273" width="224" height="248"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="248" id="3zu-Dq-YsE"/>
+                                    <constraint firstAttribute="width" constant="224" id="GrW-Rz-82k"/>
+                                </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Welcome to Cruciverbalist!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YqJ-iu-E40">
-                                <rect key="frame" x="201" y="216" width="164" height="63"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to Cruciverbalist!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YqJ-iu-E40">
+                                <rect key="frame" x="200" y="332" width="164" height="63"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="63" id="Jv4-j0-dt9"/>
                                 </constraints>
@@ -366,8 +370,18 @@ $9.99/month after trial ends</string>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" distribution="equalSpacing" spacing="81" translatesAutoresizingMaskIntoConstraints="NO" id="7Ns-qF-rRN">
-                                <rect key="frame" x="195" y="469" width="204" height="30"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I'm Verbalist the pencil and would love to quickly show you the ins and outs of the Cruciverbalist." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xRN-PL-v2o">
+                                <rect key="frame" x="195" y="370" width="214" height="54"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="214" id="6jQ-tv-jhw"/>
+                                    <constraint firstAttribute="height" constant="54" id="kXV-XO-6oA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="10"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="81" translatesAutoresizingMaskIntoConstraints="NO" id="7Ns-qF-rRN">
+                                <rect key="frame" x="152" y="563" width="204" height="30"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="umN-2K-4fS">
                                         <rect key="frame" x="0.0" y="0.0" width="63" height="30"/>
@@ -375,7 +389,6 @@ $9.99/month after trial ends</string>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="30" id="4jt-PS-fAg"/>
                                             <constraint firstAttribute="height" relation="lessThanOrEqual" constant="30" id="8ws-6X-5dA"/>
-                                            <constraint firstAttribute="width" relation="lessThanOrEqual" constant="60" id="RHc-9c-wgt"/>
                                             <constraint firstAttribute="width" constant="63" id="cWy-UB-1a8"/>
                                             <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="nB1-Fg-ExF"/>
                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="60" id="qcd-hj-4mX"/>
@@ -408,29 +421,24 @@ $9.99/month after trial ends</string>
                                     </button>
                                 </subviews>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="I'm Verbalist the pencil and would love to quickly show you the ins and outs of the Cruciverbalist." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xRN-PL-v2o">
-                                <rect key="frame" x="185" y="255" width="214" height="54"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="214" id="6jQ-tv-jhw"/>
-                                    <constraint firstAttribute="height" constant="54" id="kXV-XO-6oA"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="10"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="p8c-Lk-ItO" firstAttribute="trailing" secondItem="xRN-PL-v2o" secondAttribute="trailing" constant="10" id="1bI-VD-YYN"/>
+                            <constraint firstItem="p8c-Lk-ItO" firstAttribute="trailing" secondItem="xRN-PL-v2o" secondAttribute="trailing" constant="5" id="1bI-VD-YYN"/>
                             <constraint firstItem="ryx-iA-iJs" firstAttribute="top" secondItem="p8c-Lk-ItO" secondAttribute="top" constant="212" id="4Er-SP-X1A"/>
+                            <constraint firstItem="xRN-PL-v2o" firstAttribute="top" secondItem="p8c-Lk-ItO" secondAttribute="top" constant="282" id="7ZR-Bf-pla"/>
+                            <constraint firstItem="qwJ-KM-HCq" firstAttribute="top" secondItem="p8c-Lk-ItO" secondAttribute="top" constant="185" id="9WA-uT-nlm"/>
                             <constraint firstItem="p8c-Lk-ItO" firstAttribute="bottom" secondItem="7Ns-qF-rRN" secondAttribute="bottom" constant="369" id="Ig0-hh-VkQ"/>
-                            <constraint firstItem="YqJ-iu-E40" firstAttribute="top" secondItem="p8c-Lk-ItO" secondAttribute="top" constant="172" id="K2t-XQ-3Ci"/>
+                            <constraint firstItem="YqJ-iu-E40" firstAttribute="top" secondItem="p8c-Lk-ItO" secondAttribute="top" constant="244" id="K2t-XQ-3Ci"/>
+                            <constraint firstItem="qwJ-KM-HCq" firstAttribute="centerY" secondItem="xRN-PL-v2o" secondAttribute="centerY" id="V4m-fy-w32"/>
                             <constraint firstItem="ryx-iA-iJs" firstAttribute="leading" secondItem="p8c-Lk-ItO" secondAttribute="leading" constant="44" id="ceW-r0-u1w"/>
-                            <constraint firstItem="qwJ-KM-HCq" firstAttribute="leading" secondItem="p8c-Lk-ItO" secondAttribute="leading" constant="160" id="edV-va-EKI"/>
-                            <constraint firstItem="xRN-PL-v2o" firstAttribute="leading" secondItem="ryx-iA-iJs" secondAttribute="trailing" constant="18" id="jhb-fR-0Zg"/>
+                            <constraint firstItem="7Ns-qF-rRN" firstAttribute="top" secondItem="qwJ-KM-HCq" secondAttribute="bottom" constant="42" id="ciC-lU-YT9"/>
+                            <constraint firstItem="xRN-PL-v2o" firstAttribute="leading" secondItem="ryx-iA-iJs" secondAttribute="trailing" constant="23" id="jhb-fR-0Zg"/>
+                            <constraint firstItem="p8c-Lk-ItO" firstAttribute="trailing" secondItem="qwJ-KM-HCq" secondAttribute="trailing" constant="15" id="nRn-Ao-q5s"/>
                             <constraint firstItem="p8c-Lk-ItO" firstAttribute="bottom" secondItem="ryx-iA-iJs" secondAttribute="bottom" constant="363" id="nf3-3J-hoe"/>
-                            <constraint firstItem="qwJ-KM-HCq" firstAttribute="trailing" secondItem="Qix-zQ-Vx8" secondAttribute="trailingMargin" id="rNy-M3-dxY"/>
-                            <constraint firstItem="YqJ-iu-E40" firstAttribute="leading" secondItem="ryx-iA-iJs" secondAttribute="trailing" constant="23" id="s2I-A0-Wcx"/>
+                            <constraint firstItem="qwJ-KM-HCq" firstAttribute="leading" secondItem="ryx-iA-iJs" secondAttribute="trailing" constant="3" id="opA-fc-dXU"/>
+                            <constraint firstItem="qwJ-KM-HCq" firstAttribute="trailing" secondItem="Qix-zQ-Vx8" secondAttribute="trailingMargin" constant="5" id="rNy-M3-dxY"/>
+                            <constraint firstItem="YqJ-iu-E40" firstAttribute="leading" secondItem="ryx-iA-iJs" secondAttribute="trailing" constant="28" id="s2I-A0-Wcx"/>
                             <constraint firstItem="p8c-Lk-ItO" firstAttribute="trailing" secondItem="7Ns-qF-rRN" secondAttribute="trailing" constant="58" id="yuI-K4-r8p"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="p8c-Lk-ItO"/>
@@ -1154,23 +1162,14 @@ $9.99/month after trial ends</string>
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mrPencil" translatesAutoresizingMaskIntoConstraints="NO" id="xXu-5P-Pa7">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="mrPencil" translatesAutoresizingMaskIntoConstraints="NO" id="xXu-5P-Pa7">
                                 <rect key="frame" x="20" y="203" width="240" height="426"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bubble" translatesAutoresizingMaskIntoConstraints="NO" id="3Xc-th-nnU">
-                                <rect key="frame" x="174" y="216" width="220" height="368"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="bubble" translatesAutoresizingMaskIntoConstraints="NO" id="3Xc-th-nnU">
+                                <rect key="frame" x="174" y="191" width="220" height="368"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Awesome! You're ready to atke on the crossword puzzles on your own!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bqm-nG-Czc">
-                                <rect key="frame" x="177" y="327" width="217" height="147"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DSo-5L-gjN">
-                                <rect key="frame" x="299" y="596" width="95" height="33"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DSo-5L-gjN">
+                                <rect key="frame" x="334" y="599" width="60" height="30"/>
                                 <color key="backgroundColor" red="0.99215686270000003" green="0.58431372550000005" blue="0.42352941179999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="60" id="Kmm-nR-OjF"/>
@@ -1184,8 +1183,29 @@ $9.99/month after trial ends</string>
                                     <action selector="doneButton:" destination="SdE-rt-ocT" eventType="touchUpInside" id="K5a-36-QdG"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Awesome! You're ready to take on the crossword puzzles on your own!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bqm-nG-Czc">
+                                <rect key="frame" x="177" y="302" width="217" height="147"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="147" id="IH6-1A-VA9"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Bqm-nG-Czc" firstAttribute="centerY" secondItem="3Xc-th-nnU" secondAttribute="centerY" id="28a-bY-Lhh"/>
+                            <constraint firstItem="DSo-5L-gjN" firstAttribute="trailing" secondItem="Bqm-nG-Czc" secondAttribute="trailing" id="Ci2-Mv-HS1"/>
+                            <constraint firstItem="DSo-5L-gjN" firstAttribute="bottom" secondItem="xXu-5P-Pa7" secondAttribute="bottom" id="Gqm-hf-yf1"/>
+                            <constraint firstItem="DSo-5L-gjN" firstAttribute="trailing" secondItem="3Xc-th-nnU" secondAttribute="trailing" id="UtD-bM-crb"/>
+                            <constraint firstItem="DSo-5L-gjN" firstAttribute="trailing" secondItem="5aF-iD-VoW" secondAttribute="trailingMargin" id="WLe-IG-81o"/>
+                            <constraint firstItem="FwY-iZ-dml" firstAttribute="bottom" secondItem="DSo-5L-gjN" secondAttribute="bottom" constant="233" id="dxK-4t-cLk"/>
+                            <constraint firstItem="Bqm-nG-Czc" firstAttribute="top" secondItem="FwY-iZ-dml" secondAttribute="top" constant="214" id="fPb-Yu-jsT"/>
+                            <constraint firstItem="DSo-5L-gjN" firstAttribute="leading" secondItem="xXu-5P-Pa7" secondAttribute="trailing" constant="74" id="gvY-oy-bea"/>
+                            <constraint firstItem="Bqm-nG-Czc" firstAttribute="leading" secondItem="FwY-iZ-dml" secondAttribute="leading" constant="177" id="i75-eC-OjE"/>
+                            <constraint firstItem="DSo-5L-gjN" firstAttribute="top" secondItem="3Xc-th-nnU" secondAttribute="bottom" constant="40" id="uub-nD-ovU"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="FwY-iZ-dml"/>
                     </view>
                 </viewController>
