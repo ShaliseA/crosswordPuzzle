@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4439A190B7CA01004B02AEB7 /* Pods_crosswordPuzzle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E9741B73CD53F82DD672A00 /* Pods_crosswordPuzzle.framework */; };
+		840CA841219B5A63CDF3F447 /* Pods_crosswordPuzzleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76483CE480AE7C879C1F7B92 /* Pods_crosswordPuzzleTests.framework */; };
 		F98CEEFE225D3B07008D609E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98CEEFD225D3B07008D609E /* AppDelegate.swift */; };
 		F98CEF00225D3B07008D609E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98CEEFF225D3B07008D609E /* ViewController.swift */; };
 		F98CEF03225D3B07008D609E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F98CEF01225D3B07008D609E /* Main.storyboard */; };
@@ -21,15 +22,35 @@
 		F98CEF3E2262BF23008D609E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98CEF3D2262BF23008D609E /* LoginViewController.swift */; };
 		F98CEF412263E546008D609E /* OnlineUserTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98CEF402263E546008D609E /* OnlineUserTableViewController.swift */; };
 		F98CEF432263F82F008D609E /* Onboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F98CEF422263F82F008D609E /* Onboarding.storyboard */; };
-		F98CEF472263FD80008D609E /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98CEF462263FD80008D609E /* NotificationViewController.swift */; };
-		F98CEF492263FDAC008D609E /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98CEF482263FDAC008D609E /* LocationViewController.swift */; };
+		F98CEF472263FD80008D609E /* FreeTrialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98CEF462263FD80008D609E /* FreeTrialViewController.swift */; };
+		F98CEF492263FDAC008D609E /* ChoosePlanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98CEF482263FDAC008D609E /* ChoosePlanViewController.swift */; };
 		F98CEF4B2263FDDA008D609E /* ReadyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98CEF4A2263FDDA008D609E /* ReadyViewController.swift */; };
+		F9DCC06922724A8300468906 /* CruciverbalistBasicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DCC06822724A8300468906 /* CruciverbalistBasicViewController.swift */; };
+		F9DCC06B22724AA400468906 /* CruciverbalistPlusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DCC06A22724AA400468906 /* CruciverbalistPlusViewController.swift */; };
+		F9DCC06D22724AE600468906 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DCC06C22724AE600468906 /* WelcomeViewController.swift */; };
+		F9DCC06F22724B4400468906 /* SamplePuzzleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DCC06E22724B4400468906 /* SamplePuzzleViewController.swift */; };
+		F9DCC07122724BA700468906 /* PositiveEnforcementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DCC07022724BA700468906 /* PositiveEnforcementViewController.swift */; };
+		F9DCC07322724BE600468906 /* CompletePuzzleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DCC07222724BE600468906 /* CompletePuzzleViewController.swift */; };
+		F9DCC0D72272917B00468906 /* crosswordPuzzleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DCC0D62272917B00468906 /* crosswordPuzzleTests.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		F9DCC0D92272917B00468906 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F98CEEF2225D3B07008D609E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F98CEEF9225D3B07008D609E;
+			remoteInfo = crosswordPuzzle;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		1F7CB8FF20A9B8339C78B26B /* Pods-crosswordPuzzleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-crosswordPuzzleTests.release.xcconfig"; path = "Target Support Files/Pods-crosswordPuzzleTests/Pods-crosswordPuzzleTests.release.xcconfig"; sourceTree = "<group>"; };
 		285E95A4AF53B5666704072D /* Pods-crosswordPuzzle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-crosswordPuzzle.debug.xcconfig"; path = "Target Support Files/Pods-crosswordPuzzle/Pods-crosswordPuzzle.debug.xcconfig"; sourceTree = "<group>"; };
 		4E9741B73CD53F82DD672A00 /* Pods_crosswordPuzzle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_crosswordPuzzle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		76483CE480AE7C879C1F7B92 /* Pods_crosswordPuzzleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_crosswordPuzzleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8520F490A6D6AE2E609569D9 /* Pods-crosswordPuzzle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-crosswordPuzzle.release.xcconfig"; path = "Target Support Files/Pods-crosswordPuzzle/Pods-crosswordPuzzle.release.xcconfig"; sourceTree = "<group>"; };
+		E47F0DBA35F74F3889728957 /* Pods-crosswordPuzzleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-crosswordPuzzleTests.debug.xcconfig"; path = "Target Support Files/Pods-crosswordPuzzleTests/Pods-crosswordPuzzleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F98CEEFA225D3B07008D609E /* crosswordPuzzle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = crosswordPuzzle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F98CEEFD225D3B07008D609E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F98CEEFF225D3B07008D609E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -46,9 +67,18 @@
 		F98CEF3F2263D817008D609E /* crosswordPuzzle.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = crosswordPuzzle.entitlements; sourceTree = "<group>"; };
 		F98CEF402263E546008D609E /* OnlineUserTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlineUserTableViewController.swift; sourceTree = "<group>"; };
 		F98CEF422263F82F008D609E /* Onboarding.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Onboarding.storyboard; sourceTree = "<group>"; };
-		F98CEF462263FD80008D609E /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
-		F98CEF482263FDAC008D609E /* LocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
+		F98CEF462263FD80008D609E /* FreeTrialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreeTrialViewController.swift; sourceTree = "<group>"; };
+		F98CEF482263FDAC008D609E /* ChoosePlanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoosePlanViewController.swift; sourceTree = "<group>"; };
 		F98CEF4A2263FDDA008D609E /* ReadyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadyViewController.swift; sourceTree = "<group>"; };
+		F9DCC06822724A8300468906 /* CruciverbalistBasicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CruciverbalistBasicViewController.swift; sourceTree = "<group>"; };
+		F9DCC06A22724AA400468906 /* CruciverbalistPlusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CruciverbalistPlusViewController.swift; sourceTree = "<group>"; };
+		F9DCC06C22724AE600468906 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		F9DCC06E22724B4400468906 /* SamplePuzzleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamplePuzzleViewController.swift; sourceTree = "<group>"; };
+		F9DCC07022724BA700468906 /* PositiveEnforcementViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositiveEnforcementViewController.swift; sourceTree = "<group>"; };
+		F9DCC07222724BE600468906 /* CompletePuzzleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletePuzzleViewController.swift; sourceTree = "<group>"; };
+		F9DCC0D42272917A00468906 /* crosswordPuzzleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = crosswordPuzzleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9DCC0D62272917B00468906 /* crosswordPuzzleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = crosswordPuzzleTests.swift; sourceTree = "<group>"; };
+		F9DCC0D82272917B00468906 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +90,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F9DCC0D12272917A00468906 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840CA841219B5A63CDF3F447 /* Pods_crosswordPuzzleTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -68,6 +106,8 @@
 			children = (
 				285E95A4AF53B5666704072D /* Pods-crosswordPuzzle.debug.xcconfig */,
 				8520F490A6D6AE2E609569D9 /* Pods-crosswordPuzzle.release.xcconfig */,
+				E47F0DBA35F74F3889728957 /* Pods-crosswordPuzzleTests.debug.xcconfig */,
+				1F7CB8FF20A9B8339C78B26B /* Pods-crosswordPuzzleTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -76,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				4E9741B73CD53F82DD672A00 /* Pods_crosswordPuzzle.framework */,
+				76483CE480AE7C879C1F7B92 /* Pods_crosswordPuzzleTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -83,15 +124,22 @@
 		F98CEEF1225D3B07008D609E = {
 			isa = PBXGroup;
 			children = (
+				F9DCC07222724BE600468906 /* CompletePuzzleViewController.swift */,
+				F9DCC07022724BA700468906 /* PositiveEnforcementViewController.swift */,
+				F9DCC06E22724B4400468906 /* SamplePuzzleViewController.swift */,
+				F9DCC06C22724AE600468906 /* WelcomeViewController.swift */,
+				F9DCC06A22724AA400468906 /* CruciverbalistPlusViewController.swift */,
+				F9DCC06822724A8300468906 /* CruciverbalistBasicViewController.swift */,
 				F98CEF4A2263FDDA008D609E /* ReadyViewController.swift */,
-				F98CEF482263FDAC008D609E /* LocationViewController.swift */,
-				F98CEF462263FD80008D609E /* NotificationViewController.swift */,
+				F98CEF482263FDAC008D609E /* ChoosePlanViewController.swift */,
+				F98CEF462263FD80008D609E /* FreeTrialViewController.swift */,
 				F98CEF422263F82F008D609E /* Onboarding.storyboard */,
 				F98CEF402263E546008D609E /* OnlineUserTableViewController.swift */,
 				F98CEF3D2262BF23008D609E /* LoginViewController.swift */,
 				F98CEF3B2262BE02008D609E /* User.swift */,
 				F98CEF13225D4A97008D609E /* ArrayShuffle.swift */,
 				F98CEEFC225D3B07008D609E /* crosswordPuzzle */,
+				F9DCC0D52272917B00468906 /* crosswordPuzzleTests */,
 				F98CEEFB225D3B07008D609E /* Products */,
 				8BF1430506AE0F0052F2ED78 /* Pods */,
 				B758972DC7840AF438483486 /* Frameworks */,
@@ -102,6 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				F98CEEFA225D3B07008D609E /* crosswordPuzzle.app */,
+				F9DCC0D42272917A00468906 /* crosswordPuzzleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -121,6 +170,15 @@
 				F98CEF392262B302008D609E /* GoogleService-Info.plist */,
 			);
 			path = crosswordPuzzle;
+			sourceTree = "<group>";
+		};
+		F9DCC0D52272917B00468906 /* crosswordPuzzleTests */ = {
+			isa = PBXGroup;
+			children = (
+				F9DCC0D62272917B00468906 /* crosswordPuzzleTests.swift */,
+				F9DCC0D82272917B00468906 /* Info.plist */,
+			);
+			path = crosswordPuzzleTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,6 +203,26 @@
 			productReference = F98CEEFA225D3B07008D609E /* crosswordPuzzle.app */;
 			productType = "com.apple.product-type.application";
 		};
+		F9DCC0D32272917A00468906 /* crosswordPuzzleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9DCC0DD2272917B00468906 /* Build configuration list for PBXNativeTarget "crosswordPuzzleTests" */;
+			buildPhases = (
+				26B075EAEB4ADEDAF099B563 /* [CP] Check Pods Manifest.lock */,
+				F9DCC0D02272917A00468906 /* Sources */,
+				F9DCC0D12272917A00468906 /* Frameworks */,
+				F9DCC0D22272917A00468906 /* Resources */,
+				B34FE183B90867504DDEED11 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9DCC0DA2272917B00468906 /* PBXTargetDependency */,
+			);
+			name = crosswordPuzzleTests;
+			productName = crosswordPuzzleTests;
+			productReference = F9DCC0D42272917A00468906 /* crosswordPuzzleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -163,6 +241,10 @@
 							};
 						};
 					};
+					F9DCC0D32272917A00468906 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = F98CEEF9225D3B07008D609E;
+					};
 				};
 			};
 			buildConfigurationList = F98CEEF5225D3B07008D609E /* Build configuration list for PBXProject "crosswordPuzzle" */;
@@ -179,6 +261,7 @@
 			projectRoot = "";
 			targets = (
 				F98CEEF9225D3B07008D609E /* crosswordPuzzle */,
+				F9DCC0D32272917A00468906 /* crosswordPuzzleTests */,
 			);
 		};
 /* End PBXProject section */
@@ -196,9 +279,38 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F9DCC0D22272917A00468906 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		26B075EAEB4ADEDAF099B563 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-crosswordPuzzleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		68C6A64DB319C93ECEC5648B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -221,6 +333,30 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		B34FE183B90867504DDEED11 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-crosswordPuzzleTests/Pods-crosswordPuzzleTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-crosswordPuzzleTests/Pods-crosswordPuzzleTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		F8857BE7BD0620EAA901D1FC /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -233,6 +369,7 @@
 				"${BUILT_PRODUCTS_DIR}/CrosswordsGenerator/CrosswordsGenerator.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -242,6 +379,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CrosswordsGenerator.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,21 +394,43 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9DCC07322724BE600468906 /* CompletePuzzleViewController.swift in Sources */,
 				F98CEF3E2262BF23008D609E /* LoginViewController.swift in Sources */,
 				F98CEF412263E546008D609E /* OnlineUserTableViewController.swift in Sources */,
+				F9DCC06B22724AA400468906 /* CruciverbalistPlusViewController.swift in Sources */,
 				F98CEF00225D3B07008D609E /* ViewController.swift in Sources */,
+				F9DCC06F22724B4400468906 /* SamplePuzzleViewController.swift in Sources */,
 				F98CEF4B2263FDDA008D609E /* ReadyViewController.swift in Sources */,
 				F98CEF14225D4A97008D609E /* ArrayShuffle.swift in Sources */,
 				F98CEF3C2262BE02008D609E /* User.swift in Sources */,
-				F98CEF492263FDAC008D609E /* LocationViewController.swift in Sources */,
-				F98CEF472263FD80008D609E /* NotificationViewController.swift in Sources */,
+				F98CEF492263FDAC008D609E /* ChoosePlanViewController.swift in Sources */,
+				F98CEF472263FD80008D609E /* FreeTrialViewController.swift in Sources */,
+				F9DCC07122724BA700468906 /* PositiveEnforcementViewController.swift in Sources */,
 				F98CEF12225D4A61008D609E /* Array2D.swift in Sources */,
+				F9DCC06922724A8300468906 /* CruciverbalistBasicViewController.swift in Sources */,
 				F98CEF10225D3D4D008D609E /* CrosswordsGenerator.swift in Sources */,
 				F98CEEFE225D3B07008D609E /* AppDelegate.swift in Sources */,
+				F9DCC06D22724AE600468906 /* WelcomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9DCC0D02272917A00468906 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9DCC0D72272917B00468906 /* crosswordPuzzleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F9DCC0DA2272917B00468906 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F98CEEF9225D3B07008D609E /* crosswordPuzzle */;
+			targetProxy = F9DCC0D92272917B00468906 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		F98CEF01225D3B07008D609E /* Main.storyboard */ = {
@@ -448,6 +608,48 @@
 			};
 			name = Release;
 		};
+		F9DCC0DB2272917B00468906 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E47F0DBA35F74F3889728957 /* Pods-crosswordPuzzleTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YC8N8UC3ZR;
+				INFOPLIST_FILE = crosswordPuzzleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shaliseayromloo.crosswordPuzzleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/crosswordPuzzle.app/crosswordPuzzle";
+			};
+			name = Debug;
+		};
+		F9DCC0DC2272917B00468906 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F7CB8FF20A9B8339C78B26B /* Pods-crosswordPuzzleTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YC8N8UC3ZR;
+				INFOPLIST_FILE = crosswordPuzzleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shaliseayromloo.crosswordPuzzleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/crosswordPuzzle.app/crosswordPuzzle";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -465,6 +667,15 @@
 			buildConfigurations = (
 				F98CEF0D225D3B0B008D609E /* Debug */,
 				F98CEF0E225D3B0B008D609E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9DCC0DD2272917B00468906 /* Build configuration list for PBXNativeTarget "crosswordPuzzleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9DCC0DB2272917B00468906 /* Debug */,
+				F9DCC0DC2272917B00468906 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

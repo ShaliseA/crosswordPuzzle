@@ -18,7 +18,7 @@ class ReadyViewController: UIViewController {
     
 
 
-    @IBAction func continueButton(_ sender: UIButton) {
+    @IBAction func doneButton(_ sender: UIButton) {
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         let mainVC = storyboard.instantiateViewController(withIdentifier: "mainVC") as! ViewController
         self.present(mainVC, animated: true, completion: nil)

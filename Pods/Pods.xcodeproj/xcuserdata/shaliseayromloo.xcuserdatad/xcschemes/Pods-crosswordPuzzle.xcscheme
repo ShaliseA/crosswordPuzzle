@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B6AAFB27B999E044AD52957AA01E0DFD"
+               BlueprintIdentifier = "2E38C2DC3AF96B1308F4FF0348D81B07"
                BuildableName = "Pods_crosswordPuzzle.framework"
                BlueprintName = "Pods-crosswordPuzzle"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B6AAFB27B999E044AD52957AA01E0DFD"
+            BlueprintIdentifier = "2E38C2DC3AF96B1308F4FF0348D81B07"
             BuildableName = "Pods_crosswordPuzzle.framework"
             BlueprintName = "Pods-crosswordPuzzle"
             ReferencedContainer = "container:Pods.xcodeproj">

@@ -8,7 +8,7 @@
 
 import UIKit
 
-class NotificationViewController: UIViewController {
+class FreeTrialViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -17,9 +17,19 @@ class NotificationViewController: UIViewController {
     } //closes viewDidLoad()
     
 
-    @IBAction func continueButton(_ sender: UIButton) {
-        self.performSegue(withIdentifier: "notiToLocation", sender: self)
+    
+    @IBAction func freeTrialButton(_ sender: UIButton) {
+         self.performSegue(withIdentifier: "freeTrialToChoosePlan", sender: self)
     } //closes IBAction
+    
+    
+    
+    @IBAction func exploreLaterButton(_ sender: UIButton) {
+        self.performSegue(withIdentifier: "exploreLaterToWelcome", sender: self)
+    }
+    
+    
+
     
 
 } //closes class

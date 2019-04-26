@@ -1,14 +1,14 @@
 //
-//  LocationViewController.swift
+//  CruciverbalistPlusViewController.swift
 //  crosswordPuzzle
 //
-//  Created by Shalise Ayromloo on 4/14/19.
+//  Created by Shalise Ayromloo on 4/25/19.
 //  Copyright © 2019 Shalise Ayromloo. All rights reserved.
 //
 
 import UIKit
 
-class LocationViewController: UIViewController {
+class CruciverbalistPlusViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -17,9 +17,8 @@ class LocationViewController: UIViewController {
     } //closes viewDidLoad()
     
 
- 
-    @IBAction func continueButton(_ sender: UIButton) {
-        self.performSegue(withIdentifier: "locationToReady", sender: self)
+
+    @IBAction func plusBuyButton(_ sender: UIButton) {
     } //closes IBAction
     
 } //closes class
