@@ -33,6 +33,7 @@
 		F9DCC07322724BE600468906 /* CompletePuzzleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DCC07222724BE600468906 /* CompletePuzzleViewController.swift */; };
 		F9DCC0D72272917B00468906 /* crosswordPuzzleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DCC0D62272917B00468906 /* crosswordPuzzleTests.swift */; };
 		F9DCC0E02272C35F00468906 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DCC0DF2272C35F00468906 /* ViewController.swift */; };
+		F9FAEE882274AB2F00C9003B /* paymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FAEE872274AB2F00C9003B /* paymentViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +82,7 @@
 		F9DCC0D62272917B00468906 /* crosswordPuzzleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = crosswordPuzzleTests.swift; sourceTree = "<group>"; };
 		F9DCC0D82272917B00468906 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F9DCC0DF2272C35F00468906 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F9FAEE872274AB2F00C9003B /* paymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = paymentViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 		F98CEEF1225D3B07008D609E = {
 			isa = PBXGroup;
 			children = (
+				F9FAEE872274AB2F00C9003B /* paymentViewController.swift */,
 				F9DCC07222724BE600468906 /* CompletePuzzleViewController.swift */,
 				F9DCC07022724BA700468906 /* PositiveEnforcementViewController.swift */,
 				F9DCC06E22724B4400468906 /* SamplePuzzleViewController.swift */,
@@ -427,6 +430,7 @@
 				F98CEF492263FDAC008D609E /* ChoosePlanViewController.swift in Sources */,
 				F9DCC0E02272C35F00468906 /* ViewController.swift in Sources */,
 				F98CEF472263FD80008D609E /* FreeTrialViewController.swift in Sources */,
+				F9FAEE882274AB2F00C9003B /* paymentViewController.swift in Sources */,
 				F9DCC07122724BA700468906 /* PositiveEnforcementViewController.swift in Sources */,
 				F98CEF12225D4A61008D609E /* Array2D.swift in Sources */,
 				F9DCC06922724A8300468906 /* CruciverbalistBasicViewController.swift in Sources */,
